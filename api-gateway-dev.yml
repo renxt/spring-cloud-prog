@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/renxt/spring-cloud-prog.git
+#          searchPaths: config-repo
+          username: renxt
+          password: ******
+server:
+  port: 7001
